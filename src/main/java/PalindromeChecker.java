@@ -50,7 +50,7 @@ public boolean palindrome(String word)
     daniel += bomb.charAt(i);
   }
    daniel = daniel.toLowerCase();
-  if(daniel == reverse(daniel))
+  if(daniel.equals(reverse(daniel)))
     return true;
   
   
